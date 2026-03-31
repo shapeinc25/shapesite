@@ -1,0 +1,21 @@
+{
+  "name": "Shape Mania",
+  "short_name": "Shape Mania",
+  "description": "Shape Mania by VICKAND — skill-based puzzle game.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff9f0",
+  "theme_color": "#ffd058",
+  "icons": [
+    {
+      "src": "/assests/vickand%20logo%20no%20bg.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assests/vickand%20logo%20no%20bg.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

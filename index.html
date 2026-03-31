@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Shape Mania by VICKAND — sort falling shapes, beat your best score, daily challenges and streaks. Free on Google Play."
+    />
+    <title>Shape Mania — puzzle game by VICKAND</title>
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="/index.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Shape Mania — puzzle game by VICKAND" />
+    <meta
+      property="og:description"
+      content="Sort falling shapes, beat your best score, complete daily challenges, and keep your streak alive."
+    />
+    <meta property="og:url" content="/index.html" />
+    <meta property="og:image" content="/assests/header%20image%20dev%20page%201.png" />
+    <meta property="og:site_name" content="VICKAND" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Shape Mania — puzzle game by VICKAND" />
+    <meta
+      name="twitter:description"
+      content="A skill-based puzzle game with self-paced gameplay, boosters, daily challenges, and streaks."
+    />
+    <meta name="twitter:image" content="/assests/header%20image%20dev%20page%201.png" />
+    <meta name="theme-color" content="#ffd058" />
+    <link rel="icon" type="image/svg+xml" href="assests/vickand%20logo%20favicon.svg" />
+    <link rel="apple-touch-icon" href="assests/vickand%20logo%20favicon.svg" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="ambient-shapes" aria-hidden="true">
+      <span class="ambient-shapes__flake ambient-shapes__flake--1"></span>
+      <span class="ambient-shapes__flake ambient-shapes__flake--2"></span>
+      <span class="ambient-shapes__flake ambient-shapes__flake--3"></span>
+      <span class="ambient-shapes__flake ambient-shapes__flake--4"></span>
+      <span class="ambient-shapes__flake ambient-shapes__flake--5"></span>
+      <span class="ambient-shapes__flake ambient-shapes__flake--6"></span>
+      <span class="ambient-shapes__flake ambient-shapes__flake--7"></span>
+      <span class="ambient-shapes__flake ambient-shapes__flake--8"></span>
+    </div>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand" aria-label="VICKAND">
+          <img
+            src="assests/vickand%20logo%20no%20bg.svg"
+            alt="VICKAND logo"
+            width="54"
+            height="54"
+            decoding="async"
+          />
+        </div>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-menu"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-icon" aria-hidden="true"></span>
+        </button>
+        <nav class="site-nav" id="site-menu" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="game.html">Game</a></li>
+            <li class="nav-cta-wrap">
+              <a
+                class="nav-cta"
+                href="https://play.google.com/store/apps/details?id=com.vickand.shapemania"
+                >Download</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero hero--focus" aria-labelledby="hero-title">
+        <span class="hero-parallax-shape hero-parallax-shape--1" aria-hidden="true"></span>
+        <span class="hero-parallax-shape hero-parallax-shape--2" aria-hidden="true"></span>
+        <span class="hero-parallax-shape hero-parallax-shape--3" aria-hidden="true"></span>
+        <div class="container">
+          <div class="hero-focus reveal-on-scroll">
+            <div class="game-mark game-mark--hero" aria-label="Shape Mania">
+              <img
+                src="assests/logo.png"
+                alt="Shape Mania"
+                width="280"
+                height="80"
+                decoding="async"
+              />
+            </div>
+            <h1 id="hero-title">A simple-looking puzzle that builds real skills</h1>
+            <p class="hero-lead hero-focus__lead">
+              Shapes fall — you sort them by type. No timers, no fake pressure: space doesn’t run out
+              and you set the pace. Grow your focus, patience, and strategic thinking while chasing your
+              personal best.
+            </p>
+
+            <div class="hero-cta-hub">
+              <a
+                class="store-download-link"
+                href="https://play.google.com/store/apps/details?id=com.vickand.shapemania"
+                aria-label="Get Shape Mania on Google Play"
+                ><img
+                  src="assests/Store%20download%20button.svg"
+                  alt="Get Shape Mania on Google Play"
+                  width="390"
+                  height="130"
+                  decoding="async"
+              /></a>
+            </div>
+          </div>
+
+          <div class="hero-visual hero-visual--focus reveal-on-scroll reveal-on-scroll--delayed">
+            <img
+              src="assests/header%20image%20dev%20page%201.png"
+              alt="Shape Mania screenshot — colourful shapes and gameplay"
+              width="1200"
+              height="750"
+              decoding="async"
+              fetchpriority="high"
+            />
+            <p class="hero-badge">Shape Mania · Android · Google Play</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--screens reveal-on-scroll" aria-labelledby="screens-title">
+        <div class="container">
+          <header class="section-header section-header--wide section-header--center">
+            <h2 id="screens-title" class="section-title">Gameplay in motion</h2>
+            <p class="section-intro">
+              Stills from the live build — bright shapes, clear goals, room to focus.
+            </p>
+          </header>
+          <div class="screenshot-strip screenshot-strip--five screenshot-strip--showcase" role="list">
+            <figure class="screenshot-frame" role="listitem">
+              <img
+                src="assests/phone%20screenshot%208.png"
+                alt="Shape Mania — in-game progression"
+                width="390"
+                height="844"
+                loading="lazy"
+                fetchpriority="low"
+                decoding="async"
+              />
+            </figure>
+            <figure class="screenshot-frame" role="listitem">
+              <img
+                src="assests/phone%20screenshot%202.png"
+                alt="Shape Mania — colourful shapes on the board"
+                width="390"
+                height="844"
+                loading="lazy"
+                fetchpriority="low"
+                decoding="async"
+              />
+            </figure>
+            <figure class="screenshot-frame" role="listitem">
+              <img
+                src="assests/phone%20screenshot%203.png"
+                alt="Shape Mania — sorting gameplay moment"
+                width="390"
+                height="844"
+                loading="lazy"
+                fetchpriority="low"
+                decoding="async"
+              />
+            </figure>
+            <figure class="screenshot-frame" role="listitem">
+              <img
+                src="assests/phone%20screenshot%206.png"
+                alt="Shape Mania — challenge or menu screen"
+                width="390"
+                height="844"
+                loading="lazy"
+                fetchpriority="low"
+                decoding="async"
+              />
+            </figure>
+            <figure class="screenshot-frame" role="listitem">
+              <img
+                src="assests/phone%20screenshot%209.png"
+                alt="Shape Mania — score or results view"
+                width="390"
+                height="844"
+                loading="lazy"
+                fetchpriority="low"
+                decoding="async"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--texture reveal-on-scroll" aria-labelledby="features-title">
+        <div class="container">
+          <header class="section-header section-header--center">
+            <h2 id="features-title" class="section-title">What makes Shape Mania stick with you</h2>
+            <p class="section-intro">
+              The essentials of the experience — aligned with how we describe the game on Google Play.
+            </p>
+          </header>
+          <div class="card-grid">
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">
+                <img
+                  class="card-icon__img"
+                  src="assests/shapes%20outline%20and%20fill-2.png"
+                  alt=""
+                  width="64"
+                  height="64"
+                  decoding="async"
+                />
+              </div>
+              <h3>Real progress</h3>
+              <p>
+                Feel your focus sharpen, patterns click faster, and decisions get cleaner. That’s not
+                cosmetic stats — it’s skill that compounds session after session.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">
+                <img
+                  class="card-icon__img"
+                  src="assests/shapes%20outline%20and%20fill-5.png"
+                  alt=""
+                  width="64"
+                  height="64"
+                  decoding="async"
+                />
+              </div>
+              <h3>You vs. your best score</h3>
+              <p>
+                No online leaderboards — just yesterday’s number waiting to be beaten. Honest competition
+                with yourself.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">
+                <img
+                  class="card-icon__img"
+                  src="assests/shapes%20outline%20and%20fill-11.png"
+                  alt=""
+                  width="64"
+                  height="64"
+                  decoding="async"
+                />
+              </div>
+              <h3>Challenges &amp; streaks</h3>
+              <p>
+                Fresh daily objectives test you in new ways. Keep a streak going for rewards and turn
+                consistency into a habit.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="container reveal-on-scroll" aria-labelledby="cta-title">
+        <div class="cta-band">
+          <h2 id="cta-title">How far can you go?</h2>
+          <p>
+            Boosters add real strategy: play safe or risk big for score multipliers — your call. Track your
+            personal history: last week’s ceiling becomes this week’s floor.
+          </p>
+          <a
+            class="store-download-link"
+            href="https://play.google.com/store/apps/details?id=com.vickand.shapemania"
+            aria-label="Get Shape Mania on Google Play"
+          >
+            <img
+              src="assests/Store%20download%20button.svg"
+              alt="Get Shape Mania on Google Play"
+              width="390"
+              height="130"
+              decoding="async"
+              loading="lazy"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img
+            src="assests/vickand%20logo%20no%20bg.svg"
+            alt=""
+            width="36"
+            height="36"
+            decoding="async"
+          />
+          <span>VICKAND · Shape Mania</span>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="game.html">Game</a>
+          <a href="https://play.google.com/store/apps/details?id=com.vickand.shapemania">Google Play</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
